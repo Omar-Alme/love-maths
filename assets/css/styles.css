@@ -32,3 +32,35 @@ body {
   margin-right: auto;
   padding: 1%;
 }
+
+.questions-area {
+  width: 50%;
+  margin: auto;
+  padding: 50px 0;
+  font-size: 2rem;
+}
+
+.questions-area span {
+  padding: 0 15px;
+}
+
+.score-area {
+  width: 60%;
+  font-size: 1.2rem;
+  margin: 5px auto;
+}
+
+.controls-area {
+  width: 85%;
+  margin: 30px auto;
+}
+
+#score {
+  color: green;
+  font-weight: bold;
+}
+
+#incorrect {
+  color: red;
+  font-weight: bold;
+}
