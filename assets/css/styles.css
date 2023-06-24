@@ -64,3 +64,50 @@ body {
   color: red;
   font-weight: bold;
 }
+
+.answer-message {
+  display: none;
+  font-size: 1rem;
+}
+
+#answer-box {
+  border: none;
+  color: #445361;
+  display: inline-block;
+  height: 40px;
+  width: 80px;
+  font-size: 1.2rem;
+}
+
+.scores {
+  display: inline-block;
+  padding: 25px;
+}
+
+
+/* Buttons */
+
+.btn {
+  height: 60px;
+  width: 220px;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #fff;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn--big {
+  padding-top: 10px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  font-size: 3.2rem;
+  background-color: #fff;
+  border: 10px solid;
+  margin: 0 30px;
+  transition: all 0.5s;
+}
